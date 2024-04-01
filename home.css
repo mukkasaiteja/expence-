@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav-ul{
+display: flex;
+justify-content:space-around;
+align-items: center;
+list-style:none;
+padding: 20px;
+background-color: black;
+color: wheat;
+cursor: pointer;
+}
+.li-a{
+    color: wheat;
+    text-decoration: none;
+}
+.section-income{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+}
+.balance{
+    width: 100px;
+}
