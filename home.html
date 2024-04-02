@@ -51,15 +51,20 @@
         </p>
     </section>
  <!-- INPUT DETAILS OF INCOME -->
-
- <input type="text" placeholder="description" id="desId">
- <input type="text" placeholder="amount" id="amoId"> 
- <select name="" id="select-type">
-    <option value="income">Income</option>
-    <option value="expense">expense</option>
-
- </select>
- <button onclick="fun()">Add entry</button>
+ <form id="todo-form">
+    <input type="text" id="todo-input" placeholder="Add a new todo...">
+    <input type="number" id="todo-num" placeholder=" enter a number">
+    <select name="" id="todo-select" >
+        <option value="income">
+            income
+        </option>
+        <option value="expences">
+            expences
+        </option>
+    </select>
+    <button type="submit">Add</button>
+  </form>
+  <ul id="todo-list"></ul>
 </main>
 <script src="./script.js"></script>
 </body>
